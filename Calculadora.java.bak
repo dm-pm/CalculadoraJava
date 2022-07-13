@@ -1,7 +1,12 @@
 class Calculadora 
 {
 	public static void main(String[] args) throws Exception
-	{float x, y, r; String o;
+	{float x, y, r; String op1, op2, op3, op4, op5, o;
+	/*	op1 = "+";
+		op2 = "-";
+		op3 = "*";
+		op4 = "/";
+		op5 = "%"; */
 		System.out.println("Calculadora!");
 		System.out.println("Digite um numero: ");
 		x = JUtil.readFloat();
